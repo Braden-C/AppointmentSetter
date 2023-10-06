@@ -1,0 +1,2 @@
+module AppointmentsdbsHelper
+end

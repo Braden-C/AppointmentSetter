@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Appointmentsdbs</h1>
+
+<div id="appointmentsdbs">
+  <% @appointmentsdbs.each do |appointmentsdb| %>
+    <%= render appointmentsdb %>
+    <p>
+      <%= link_to "Show this appointmentsdb", appointmentsdb %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New appointmentsdb", new_appointmentsdb_path %>

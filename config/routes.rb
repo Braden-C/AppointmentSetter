@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :appointmentsdbs
   # get 'home/index'
   get 'home/about'
   root 'home#index'

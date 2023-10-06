@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @appointmentsdb %>
+
+<div>
+  <%= link_to "Edit this appointmentsdb", edit_appointmentsdb_path(@appointmentsdb) %> |
+  <%= link_to "Back to appointmentsdbs", appointmentsdbs_path %>
+
+  <%= button_to "Destroy this appointmentsdb", @appointmentsdb, method: :delete %>
+</div>
